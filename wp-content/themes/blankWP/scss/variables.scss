@@ -1,0 +1,38 @@
+/*general variables*/
+$highlightColor: yellow;
+
+/*  Breakpoints */
+$largeDesktop: 1400px;
+$tabletLandscape: 1024px;
+$tabletPortrait: 728px;
+$mobile: 600px;
+
+/* breakpoint variables */
+$widthPhone: 320px;
+$widthPhoneLandscape: 480px;
+$widthTablet: 768px;
+$widthTabletLandscape: 960px;
+$widthDesktop: 1200px;
+$breakpointPhone: "only screen and (max-width : 496px)";
+$breakpointPhoneLandscape: "only screen and (max-width : 784px)";
+$breakpointTablet: "only screen and (max-width : 976px)";
+$breakpointTabletLandscape: "only screen and (max-width : 1216px)"; 
+/*
+@media #{$breakpointPhone} {
+}
+@media #{$breakpointPhoneLandscape} {
+}
+@media #{$breakpointTablet} {
+}
+@media #{$breakpointTabletLandscape} {
+}
+
+*/
+
+
+@mixin transition($property, $ms, $easing, $delay){
+	-webkit-transition: $property $ms $easing $delay;
+    -moz-transition: $property $ms $easing $delay;
+    -o-transition: $property $ms $easing $delay;
+    transition: $property $ms $easing $delay;
+}
