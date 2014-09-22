@@ -1,0 +1,1 @@
+This folder is meant to hold any template files that are not built into the wordpress core. For instance, home.php would not go in this folder, but if you added a custom template and assigned it via the page admin, it would. 
