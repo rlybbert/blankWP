@@ -1,7 +1,34 @@
 <?php
 
+//make admin urls more dynamic
+//make wordpress menu links dynamic using string replace with ###site_url###
+function replaceNavURL( $atts, $item, $args ) {
+	$siteURL = site_url();
+    $newlink = str_replace("###site_url###", $siteURL, $atts['href']);
+    $atts['href'] = $newlink;
+    return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'replaceNavURL', 10, 3 );
+//make links in content dynamic
+function replaceContentURL($content){
+	$siteURL = site_url()."/";
+	$content = str_replace('###site_url###', $siteURL,$content);
+	return $content;
+}
+add_filter('the_content','replaceContentURL');
+
+
 //disable the admin bar, if only for development
 show_admin_bar(false);
+
+//remove default image sizes
+function remove_default_image_sizes( $sizes) {
+    unset( $sizes['thumbnail']);
+    unset( $sizes['medium']);
+    unset( $sizes['large']);
+    return $sizes;
+}
+add_filter('intermediate_image_sizes_advanced', 'remove_default_image_sizes');
 
 //setup theme menus
 function blankwpMenus() {
