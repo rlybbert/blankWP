@@ -45,5 +45,9 @@
 
 	<div class="wrapper">
 		I'm your header file (header.php), here is your header menu:
-		<?php wp_nav_menu( array('theme_location' => 'header-menu') ); ?>
+		<div class="header">
+			<?php wp_nav_menu( array('theme_location' => 'header-menu') ); ?>
+		</div>
+
+		<div class="body">
 
