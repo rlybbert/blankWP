@@ -2,7 +2,7 @@
 
 This theme was designed to deloy a wordpress site in seconds.
 
-Step 1: Clone this theme (e.g. git clone [this repository url]
+Step 1: Clone this theme (e.g. git clone git@github.com:bbuie/blankWP.git)
 
 Step 2: Create a database on your server (i.e. use phpmyadmin to create a new database)
 
