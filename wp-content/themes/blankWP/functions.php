@@ -56,7 +56,4 @@ if ( !function_exists( 'loadJquery' ) ) {
 	add_action( 'wp_enqueue_scripts', 'loadJquery' );
 }
 
-// Custom Menu
-register_nav_menu( 'primary', __( 'Navigation Menu', 'html5reset' ) );
-
 ?>
