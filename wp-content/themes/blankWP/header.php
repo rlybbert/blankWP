@@ -39,6 +39,9 @@
 
 	<?php wp_head(); ?>
 
+	<!-- add custom javascript, functions should be in a document ready-->
+	<script type='text/javascript' src="<?php echo $stylesheetURL ?>/js/blankWP.js"></script>
+
 </head>
 
 <body <?php body_class(); ?>>
