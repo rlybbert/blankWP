@@ -14,11 +14,13 @@ Step 4: Copy wp-config-blankWP.php to wp-config.php and change the database cred
 
 Step 5: Login to wp-admin with blankwp keypass password, change credentials, save new site in keypass, 
 
-Step 6: Update wordpress (if needed), re-backup the database (mysqldump [your new db name] --skip-extended-insert -h localhost -u root -p  > blankWP.sql) and push changes back to here.
+Step 6: Update wordpress (if needed), re-backup the database (mysqldump [your new db name] --skip-extended-insert -h localhost -u root -p  > blankWP.sql) and push changes to origin.
 
-Step 7: Change the name of blankWP.sql  to the name of your project
+Step 7: delete remote (git remote rm origin)
 
-Step 8: Change the general settings in the wordpress admin. 
+Step 8: Change the name of blankWP.sql  to the name of your project
+
+Step 9: Change the general settings in the wordpress admin. 
 
 Thats it. Start Theming!
 
