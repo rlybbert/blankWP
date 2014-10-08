@@ -32,10 +32,8 @@ Step 3: change the Theme Name in the theme's style.css file.
 
 Step 4: change the js/blankWP.js to the theme name
 
-Step 5: change the blankWP.scss file name to theme name and modify header.php file to point to new file. Delete blankWP.css
+Step 5: change the blankWP.scss file name to theme name. Delete blankWP.css
 
 Step 6: edit the header.php file and change every instance of blankWP to your new theme name
 
-
-
-Step 4: commit your changes
+Step 7: commit your changes
