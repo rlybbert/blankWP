@@ -33,8 +33,7 @@
 	<meta name="Copyright" content="Copyright &copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>. All Rights Reserved.">
 
 	<!-- concatenate and minify for production -->
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/reset.css" />
-	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/blankWP.css" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 
 	<?php wp_head(); ?>
