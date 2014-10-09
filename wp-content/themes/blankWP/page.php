@@ -1,5 +1,5 @@
 <?php
-
+$stylesheetURL = get_stylesheet_directory_uri();
  get_header(); ?>
 
 	<?php if (have_posts()) { ?> 

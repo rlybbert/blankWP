@@ -1,5 +1,5 @@
 <?php
-
+$stylesheetURL = get_stylesheet_directory_uri();
 ?>
 		</div>
 		<div class="footer clearfix">

@@ -1,5 +1,5 @@
 <?php
-
+$stylesheetURL = get_stylesheet_directory_uri();
 ?><!doctype html>
 
 <!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" <?php language_attributes(); ?>> <![endif]-->
