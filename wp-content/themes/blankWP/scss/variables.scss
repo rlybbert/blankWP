@@ -7,10 +7,12 @@ $widthPhoneLandscape: 480px;
 $widthTablet: 768px;
 $widthTabletLandscape: 960px;
 $widthDesktop: 1200px;
+$widthDesktopWide: 1400px;
 $breakpointPhone: "only screen and (max-width : 496px)";
 $breakpointPhoneLandscape: "only screen and (max-width : 784px)";
 $breakpointTablet: "only screen and (max-width : 976px)";
 $breakpointTabletLandscape: "only screen and (max-width : 1216px)"; 
+$breakpointDesktop: "only screen and (max-width : 1416px)";  
 /*
 @media #{$breakpointPhone} {
 }
