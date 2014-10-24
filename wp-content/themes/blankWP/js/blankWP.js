@@ -1,6 +1,6 @@
 (function ($) {
 
-	var blankWP = new Object();
+	var customApp = new Object();
 
 	$(window).resize(function() {		
 		//resize function go here
@@ -9,11 +9,11 @@
 	$(document).ready(function (){
 
 		//call your custom functions like this
-		blankWP.testFunction()
+		customApp.testFunction()
 
 	});
 
-	blankWP.testFunction = function()
+	customApp.testFunction = function()
 		{
 			//add functions like this
 		}
