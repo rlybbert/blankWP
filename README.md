@@ -1,6 +1,6 @@
 # Custom wordpress theme
 
-### Based on BlankWP Theme
+### Based on BlankWP Theme https://github.com/bbuie/blankWP
 
 This theme was designed to deloy a wordpress site in seconds.
 
