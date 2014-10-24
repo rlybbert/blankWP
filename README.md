@@ -1,6 +1,6 @@
-# Custom wordpress theme
+# Custom wordpress install
 
-### Based on BlankWP Theme
+### Based on BlankWP Wordpress Install https://github.com/bbuie/blankWP
 
 This theme was designed to deloy a wordpress site in seconds.
 
