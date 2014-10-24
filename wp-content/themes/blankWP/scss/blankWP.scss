@@ -14,33 +14,6 @@ tableOfContents
 @import 'reset';
 
 /*generalStyles*/
- 
- /* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
-::-moz-selection{background: $highlightColor; color: #fff; text-shadow: none;}
-::selection {background: $highlightColor; color: #fff; text-shadow: none;}   
-
-/*	j.mp/webkit-tap-highlight-color */
-a:link {-webkit-tap-highlight-color: $highlightColor;} 
-
-ins {background-color: $highlightColor; color: #000; text-decoration: none;}
-mark {background-color: $highlightColor; color: #000; font-style: italic; font-weight: bold;}
-
-/* Mozilla dosen't style place holders by default */
-input:-moz-placeholder { color:#a9a9a9; }
-textarea:-moz-placeholder { color:#a9a9a9; } 
-
-.c {
-        clear: both;
-}
-img {
-	display: block;
-	height: auto;
-}
-a {
-	text-decoration: none;
-}
-::-moz-selection{background: #fcd700; color: #fff; text-shadow: none;}
-::selection {background: #fcd700; color: #fff; text-shadow: none;}
 
 /*themeStyles*/
 html, body {
