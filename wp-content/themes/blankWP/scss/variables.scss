@@ -32,3 +32,9 @@ $breakpointDesktop: "only screen and (max-width : 1416px)";
     -o-transition: $property $ms $easing $delay;
     transition: $property $ms $easing $delay;
 }
+
+@mixin radius($pixels){
+	-webkit-border-radius: $pixels; 
+	-moz-border-radius: $pixels; 
+	border-radius: $pixels; 
+}
