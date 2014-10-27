@@ -4,6 +4,4 @@ $stylesheetURL = get_stylesheet_directory_uri();
 
 	<h2>Page not found</h2>
 
-<?php get_sidebar(); ?>
-
 <?php get_footer(); ?>
