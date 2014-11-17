@@ -22,14 +22,14 @@ Step 8: Change the general settings in the wordpress admin, change password cred
 
 Step 9: Change the name of blankWP.sql to the name of your project
 
-
 Thats it. Start Theming!
 
-#### Steps to change theme name
+
+#### Steps to change all files in theme from blankWP to your theme name. 
 
 Step 1: change WP_DEFAULT_THEME in wp-config.php to the new theme name
 
-Step 2: rename the theme folder
+Step 2: rename the theme folder (from blankWP to your new theme name)
 
 Step 3: change the Theme Name in the theme's style.css file. 
 
