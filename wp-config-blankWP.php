@@ -65,8 +65,8 @@ $table_prefix  = 'wp_';
  * Added by BlankWP
  *
 */
-// define('WP_SITEURL', 'http://benbuie.com/');
-// define('WP_HOME', 'http://benbuie.com/');
+define('WP_SITEURL', 'http://benbuie.com/blank-wp-error');
+define('WP_HOME', 'http://benbuie.com/blank-wp-error');
 define('WP_DEFAULT_THEME', 'blankWP');
 define('WP_POST_REVISIONS', false );
 define('DISALLOW_FILE_EDIT',true);
@@ -81,7 +81,7 @@ define('DISALLOW_FILE_EDIT',true);
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
