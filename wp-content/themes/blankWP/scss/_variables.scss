@@ -25,6 +25,13 @@ $breakpointDesktop: "only screen and (max-width : 1416px)";
 
 */
 
+@mixin shadow(x, y, blur, color) {
+	-moz-box-shadow: x y blur color;
+	-webkit-box-shadow: x y blur color;
+	box-shadow: x y blur color;
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=blur, Direction=135, Color='color')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=blur, Direction=135, Color='color');*/
+}
 
 @mixin transition($property, $ms, $easing, $delay){
 	-webkit-transition: $property $ms $easing $delay;
