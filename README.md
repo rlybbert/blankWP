@@ -20,7 +20,7 @@ Step 7: Delete the current origin remote (git remote rm origin) and add a new or
 
 Step 8: Change the general settings in the wordpress admin, change password credentials, save new password in your password keeper. Backup the database (see mysql above).
 
-Step 9: Change the name of blankWP.sql to the name of your project
+Step 9: Change the name of blankWP.sql to the name of your project and prevent web access in the .htaccess file.
 
 Thats it. Start Theming!
 
