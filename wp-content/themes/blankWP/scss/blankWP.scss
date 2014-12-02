@@ -1,24 +1,18 @@
 /*
 tableOfContents
-	sassVariables
-	resetStyles
+	includeStyles	
 	generalStyles
+	keepFooterDownStyles
 */
 
-/*sassVariables*/
-
+/*includeStyles*/
 @import 'variables'; 
-
-/*resetStyles*/
-
 @import 'reset';
-
 /*generalStyles*/
-
-/*themeStyles*/
 html, body {
 	height: 100%;
 }
+/*keepFooterDownStyles*/
 body {
 	/*the following wrapper body and footer code keeps the footer at the bottom*/
 	.wrapper {
@@ -36,4 +30,7 @@ body {
 		overflow: hidden;
 	}
 }
+/*themeStyles*/
+
+
 
