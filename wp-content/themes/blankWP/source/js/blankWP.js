@@ -1,21 +1,21 @@
 (function ($) {
 
-	var customApp = new Object();
+	var customApp = new Object;
 
-	$(window).resize(function() {		
+	$(window).resize(function() {
 		//resize function go here
 	});
 
 	$(document).ready(function (){
 
 		//call your custom functions like this
-		customApp.testFunction()
+		customApp.testFunction();
 
 	});
 
 	customApp.testFunction = function()
 		{
 			//add functions like this
-		}
+		};
 
 }(window.jQuery || window.$));

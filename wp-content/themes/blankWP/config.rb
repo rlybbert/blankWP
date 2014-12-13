@@ -1,8 +1,7 @@
 preferred_syntax = :scss
-css_dir = '/'
-sass_dir = '/'
-images_dir = '../img'
-javascripts_dir = '../js'
+css_dir = 'css/'
+sass_dir = 'source/scss/'
+images_dir = 'img'
 relative_assets = true
 line_comments = true
 sass_options = {:debug_info => false}

@@ -34,6 +34,9 @@ wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
 
+# grunt specific files
+wp-content/themes/**/node_modules/
+
 # wpengine specific
 .smushit-status
 .gitattributes
