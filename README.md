@@ -33,10 +33,19 @@ Step 2: rename the theme folder (from blankWP to your new theme name)
 
 Step 3: change the Theme Name in the theme's style.css file. 
 
-Step 4: change the js/blankWP.js to the theme name
+Step 4: change the source/js/blankWP.js to the theme name
 
-Step 5: change the blankWP.scss file name to theme name. Delete blankWP.css
+Step 5: change the source/scss/blankWP.scss file name to theme name. Delete blankWP.css
 
-Step 6: edit the header.php file and change every instance of blankWP to your new theme name
+Step 6: change all instances of "blankWP" in Grunfile.js to the theme name ( Follow instructions for Grunt )
 
-Step 7: commit your changes
+Step 7: edit the header.php file and change every instance of blankWP to your new theme name
+
+Step 8: commit your changes
+
+
+#### Steps to run Grunt. 
+
+Step 1: from the theme folder, run command "npm install". That will install all your dependancies
+
+Step 2: run command "grunt". That will watch your folder for changes.
